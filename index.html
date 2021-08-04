@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rhael Henrique">
+    <meta name="description" content="Ferramenta de marcação com timer">
+
+    <meta property="og:title" content="Markup - RHR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Ferramenta de marcação com timer." />
+
+    <link rel="stylesheet" href="styles.css" >
+
+    <title>Markup - RHR</title>
+</head>
+<body>
+    
+    <div class="geral">
+        <h1>Cronômetro</h1>
+        <br />
+        <h3>Clique em Start para começar.</h3>
+        <br />
+    
+        <div>
+            <form name="form_main">
+                <button type="button" class="btn-01" name="start">Start</button>
+                <button type="button" class="btn-01" name="pause">Pause</button>
+                <button type="button" class="btn-01" name="reset">Reset</button>
+                <button type="button" class="btn-02" name="markup">Markup</button>
+                <br />
+                <br />
+                <div>
+                    <span class="timer" id="hour">00</span>:<span class="timer" id="minute">00</span>:<span class="timer"
+                        id="second">00</span>:<span class="timer" id="millisecond">000</span>
+                </div>
+                <div class="markup">
+                    <br />
+                    <h2>Marcadores:</h2>
+                    <br />
+                    <span class="timer2" id="hour2">00</span>:<span class="timer2" id="minute2">00</span>:<span
+                        class="timer2" id="second2">00</span>:<span class="timer2" id="millisecond2">000</span>
+                </div>
+                <br />
+                <h2 class="h2-notes">Anotações:</h2>
+                <br />
+                <textarea id="text" class="text">
+                </textarea>
+                <br />
+                <br />
+                <button type="button" class="btn-02" name="save">Salvar</button>
+                <br />
+                <br />
+                <div id="notes">
+    
+                </div>
+            </form>
+            <h2>Lista de Marcações:</h2>
+            <br />
+            <ul id="list">
+            </ul>
+        </div>
+    </div>
+
+    <script  src="./scripts.js" ></script>
+</body>
+</html>

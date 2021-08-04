@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #f7f1e3;
+    background-color: #222f3e;
+    font-family: Ubunto, Roboto, Sans-serif;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .geral {
+    width: 45rem;
+    height: auto;
+  }
+  
+  .geral h1{
+    font-size: 2rem;
+  }
+  
+  .btn-01 {
+    width: 6rem;
+    height: 2rem;
+    background-color: #ff793f;
+    border: 1px solid #ff793f;
+    border-radius: 7px;
+    font-weight: 600;
+    font-style: italic;
+    transition: 300ms;
+  }
+  
+  .btn-01:hover {
+    background-color: #8395a7;
+    border: 1px solid #8395a7;
+    transition: 300ms;
+  }
+  
+  .btn-02{
+    width: 6rem;
+    height: 2rem;
+    background-color: #fad390;
+    border: 1px solid #fad390;
+    color: #0c2461;
+    border-radius: 7px;
+    font-weight: 600;
+    font-style: italic;
+    transition: 300ms;
+  }
+  
+  .btn-02:hover {
+    background-color: #8395a7;
+    border: 1px solid #8395a7;
+    transition: 300ms;
+  }
+  
+  .timer {
+    font-size: 3em;
+  }
+  
+  .timer2{
+    font-size: 2rem;
+  }
+  
+  .text {
+    width: 23rem;
+    height: 7rem;
+    padding: 0.5rem;
+    background-color: #8395a7;
+    border: 1px solid #8395a7;
+    color: #0c2461;
+    border-radius: 7px;
+    font-weight: 600;
+    transition: 300ms;
+  }
+  
+  .text:active {
+    outline: none;
+    background-color: #fad390;
+  }
+  .text:focus {
+    outline: none;
+    background-color: #fad390;
+    transition: 300ms;
+  }

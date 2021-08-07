@@ -3,21 +3,39 @@
     padding: 0;
     font-size: 16px;
     color: #f7f1e3;
-    background-color: #222f3e;
-    font-family: Ubunto, Roboto, Sans-serif;
-    flex-direction: row;
+    background-color: #303030;
+    font-family: Sans-serif;
+
+    justify-content: center;
+  }
+
+  .top {
+    padding: 1rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
+    display: flex;
   }
-  
+
+  .top img {
+    width: 17rem;
+    margin-bottom: 1rem;
+  }
+
+  .top p {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+  }
+    
   .geral {
-    width: 45rem;
+    width: auto;
     height: auto;
-  }
-  
-  .geral h1{
-    font-size: 2rem;
+    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
   }
   
   .btn-01 {
@@ -83,4 +101,8 @@
     outline: none;
     background-color: #fad390;
     transition: 300ms;
+  }
+
+  h3 {
+    display: flex;
   }

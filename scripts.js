@@ -4,6 +4,8 @@ let minute = 0;
 let second = 0;
 let millisecond = 0;
 
+let auxMark = 0;
+
 let cron;
 
 //Clean field
@@ -69,11 +71,12 @@ function markup() {
   document.getElementById('minute2').innerText = returnData(minute);
   document.getElementById('second2').innerText = returnData(second);
   document.getElementById('millisecond2').innerText = returnData(millisecond);
+  auxMark = hour+":"+minute+":"+second+":"+millisecond;
+  console.log(auxMark);
 }
 
 function save() {
-  const auxMark = hour+":"+minute+":"+second+":"+millisecond;
-  console.log(auxMark);
+  
   var text = "";
   text = document.getElementById("text").value;
   const aux = auxMark+" ::: "+text;

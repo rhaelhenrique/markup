@@ -16,6 +16,7 @@ document.form_main.pause.onclick = () => pause();
 document.form_main.reset.onclick = () => reset();
 document.form_main.markup.onclick = () => markup();
 document.form_main.save.onclick = () => save();
+document.form_main.copiar.onclick = () => copiar();
 
 function start() {
   pause();
@@ -83,9 +84,16 @@ function save() {
   console.log(aux);
   
   var auxh3 = document.createElement("H3");
+  auxh3.className = ("h3list");
   auxh3.innerHTML = aux;
   document.body.appendChild(auxh3);
   
   //Clean field
   document.getElementById("text").value = "";
 }
+
+/* function copiar() {
+  let h3texto = document.querySelector(".h3list");
+  h3texto.select();
+  document.execCommand("copy");
+} */
